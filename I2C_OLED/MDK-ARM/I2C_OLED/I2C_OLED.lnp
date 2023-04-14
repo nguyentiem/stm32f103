@@ -15,6 +15,7 @@
 "i2c_oled\stm32f1xx_hal_flash.o"
 "i2c_oled\stm32f1xx_hal_flash_ex.o"
 "i2c_oled\stm32f1xx_hal_exti.o"
+"i2c_oled\stm32f1xx_hal_spi.o"
 "i2c_oled\stm32f1xx_hal_tim.o"
 "i2c_oled\stm32f1xx_hal_tim_ex.o"
 "i2c_oled\system_stm32f1xx.o"

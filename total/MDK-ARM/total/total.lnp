@@ -1,0 +1,28 @@
+--cpu Cortex-M3
+"total\startup_stm32f103xb.o"
+"total\main.o"
+"total\stm32f1xx_it.o"
+"total\stm32f1xx_hal_msp.o"
+"total\stm32f1xx_hal_gpio_ex.o"
+"total\stm32f1xx_hal_adc.o"
+"total\stm32f1xx_hal_adc_ex.o"
+"total\stm32f1xx_hal.o"
+"total\stm32f1xx_hal_rcc.o"
+"total\stm32f1xx_hal_rcc_ex.o"
+"total\stm32f1xx_hal_gpio.o"
+"total\stm32f1xx_hal_dma.o"
+"total\stm32f1xx_hal_cortex.o"
+"total\stm32f1xx_hal_pwr.o"
+"total\stm32f1xx_hal_flash.o"
+"total\stm32f1xx_hal_flash_ex.o"
+"total\stm32f1xx_hal_exti.o"
+"total\stm32f1xx_hal_i2c.o"
+"total\stm32f1xx_hal_spi.o"
+"total\stm32f1xx_hal_tim.o"
+"total\stm32f1xx_hal_tim_ex.o"
+"total\stm32f1xx_hal_uart.o"
+"total\system_stm32f1xx.o"
+--strict --scatter "total\total.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "total.map" -o total\total.axf

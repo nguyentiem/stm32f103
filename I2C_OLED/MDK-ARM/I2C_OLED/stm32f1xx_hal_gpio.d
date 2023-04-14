@@ -25,3 +25,4 @@ i2c_oled\stm32f1xx_hal_gpio.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal
 i2c_oled\stm32f1xx_hal_gpio.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h
 i2c_oled\stm32f1xx_hal_gpio.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h
 i2c_oled\stm32f1xx_hal_gpio.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
+i2c_oled\stm32f1xx_hal_gpio.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h
